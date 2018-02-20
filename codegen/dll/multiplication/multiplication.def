@@ -1,0 +1,8 @@
+DLL {
+	global:
+		multiplication;
+		multiplication_initialize;
+		multiplication_terminate;
+	local:
+		*;
+};

@@ -1,0 +1,37 @@
+Reading pref.tcl
+
+# 10.3c
+
+# do hdl_matmul_tb_sim.do
+# vsim -novopt -c -do "hdl_matmul_tb_sim.do" 
+# Start time: 09:41:03 on Feb 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.hdl_matmul_pkg
+# Loading work.hdl_matmul_tb_pkg(body)
+# Loading work.hdl_matmul_tb_data(body)
+# Loading work.hdl_matmul_tb(rtl)
+# Loading work.hdl_matmul(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+# ** Fatal: (vsim-3734) Index value -3 is out of range 0 to 3.
+#    Time: 0 ps  Iteration: 0  Process: /hdl_matmul_tb/u_hdl_matmul/line__633 File: hdl_matmul.vhd
+# Fatal error in Architecture rtl at hdl_matmul.vhd line 633
+# 
+# HDL call sequence:
+# Stopped at hdl_matmul.vhd 633 Architecture rtl
+# 
+# End time: 09:41:03 on Feb 08,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 6

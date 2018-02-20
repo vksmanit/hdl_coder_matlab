@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FPGABoard Version="1.0">
+   <BoardName>DE0-Nano Board</BoardName>
+   <FPGA Device="EP4CE22F17C6" Family="Cyclone IV E" JTAGChainPosition="1" Package="" Speed="" Vendor="Altera">
+      <Interface>
+         <Type>Altera JTAG</Type>
+      </Interface>
+      <Interface>
+         <Type>Clock</Type>
+         <Parameter ID="ClockType">Single-Ended</Parameter>
+         <Parameter ID="Frequency">50</Parameter>
+         <Signal>
+            <SignalName>Clock</SignalName>
+            <Description>Clock</Description>
+            <Direction>in</Direction>
+            <BitWidth>1</BitWidth>
+            <FPGAPin>R8</FPGAPin>
+         </Signal>
+      </Interface>
+      <Interface>
+         <Type>Reset</Type>
+         <Parameter ID="ActiveLevel"/>
+         <Signal>
+            <SignalName>Reset</SignalName>
+            <Description>Reset</Description>
+            <Direction>in</Direction>
+            <BitWidth>1</BitWidth>
+            <FPGAPin>J15</FPGAPin>
+         </Signal>
+      </Interface>
+   </FPGA>
+</FPGABoard>

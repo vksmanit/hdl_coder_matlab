@@ -1,0 +1,79 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 10:01:21  February 08, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		hdl_matmul_fil_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE22F17C6
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:01:21  FEBRUARY 08, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/hdlsrc/hdl_matmul_pkg.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/hdlsrc/hdl_matmul.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWClkMgr.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWAJTAG.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/FILPKTBuilder.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWDPRAM.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWRXBuffer.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWTXBuffer.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWArbiter.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/FILSYNCBuffer.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfRXDecoder.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWRotateRight.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWMuxReg.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfRXUnpack.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfRX.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfTX.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfRXCtrl.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfTXCtrl.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIfCtrl.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/MWChIf.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/FILCommLayer.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/FILCmdProc.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/hdl_matmul_wrapper.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/FILCore.vhd
+set_global_assignment -name VHDL_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/hdl_matmul_fil.vhd
+set_location_assignment PIN_R8 -to sysclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sysclk
+set_location_assignment PIN_J15 -to sysrst
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sysrst
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to sysrst
+set_global_assignment -name SDC_FILE /home/vipinsoni/MTP/hdl_coder_matlab/codegen/hdl_matmul/fil/hdl_matmul_fil/filsrc/hdl_matmul_fil.sdc
+set_global_assignment -name TOP_LEVEL_ENTITY hdl_matmul_fil

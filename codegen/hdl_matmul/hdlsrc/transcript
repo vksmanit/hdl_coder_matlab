@@ -1,0 +1,136 @@
+vcom *.vhd
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:54:16 on Feb 08,2018
+# vcom -reportprogress 300 hdl_matmul.vhd hdl_matmul_pkg.vhd hdl_matmul_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package hdl_matmul_pkg
+# -- Compiling entity hdl_matmul
+# -- Compiling architecture rtl of hdl_matmul
+# -- Compiling package hdl_matmul_pkg
+# -- Loading package hdl_matmul_pkg
+# -- Compiling package hdl_matmul_tb_pkg
+# -- Compiling package body hdl_matmul_tb_pkg
+# -- Loading package hdl_matmul_tb_pkg
+# -- Loading package hdl_matmul_tb_pkg
+# -- Compiling package hdl_matmul_tb_data
+# -- Compiling package body hdl_matmul_tb_data
+# -- Loading package hdl_matmul_tb_data
+# -- Loading package hdl_matmul_tb_data
+# -- Compiling entity hdl_matmul_tb
+# -- Compiling architecture rtl of hdl_matmul_tb
+# -- Loading entity hdl_matmul
+# End time: 10:54:16 on Feb 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do hdl_matmul_tb_sim.do
+# vsim 
+# Start time: 10:54:34 on Feb 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.hdl_matmul_pkg
+# Loading work.hdl_matmul_tb_pkg(body)
+# Loading work.hdl_matmul_tb_data(body)
+# Loading work.hdl_matmul_tb(rtl)
+# Loading work.hdl_matmul(rtl)
+view source
+# .main_pane.source.interior.cs.body.srcobj
+bp hdl_matmul_tb.vhd 511
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /hdl_matmul_tb
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step -current
+step -current
+step -current
+# ** Fatal: (vsim-3734) Index value -3 is out of range 0 to 3.
+#    Time: 0 ps  Iteration: 0  Process: /hdl_matmul_tb/u_hdl_matmul/line__633 File: hdl_matmul.vhd
+# Fatal error in Architecture rtl at hdl_matmul.vhd line 633
+# 
+# HDL call sequence:
+# Stopped at hdl_matmul_tb.vhd 578 Architecture rtl
+# 
+step -current
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at hdl_matmul.vhd 633 Architecture rtl
+# 
+step
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at hdl_matmul.vhd 633 Architecture rtl
+# 
+step
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at hdl_matmul.vhd 633 Architecture rtl
+# 
+step
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at hdl_matmul.vhd 633 Architecture rtl
+# 
+edit hdl_matmul.vhd

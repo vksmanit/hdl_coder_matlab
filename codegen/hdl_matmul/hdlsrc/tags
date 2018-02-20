@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+a_in_type	hdl_matmul_tb.vhd	/^  TYPE a_in_type IS ARRAY (0 TO 11) OF std_logic_vector(7 DOWNTO 0);$/;"	t
+b_in_procedure	hdl_matmul_tb.vhd	/^  PROCEDURE b_in_procedure $/;"	p
+c_out_procedure	hdl_matmul_tb.vhd	/^  PROCEDURE c_out_procedure $/;"	p
+getMore	hdl_matmul_hdl_conformance_report.html	/^            function getMore(type) {$/;"	f
+getMore	resource_report.html	/^            function getMore(type) {$/;"	f
+getSuggestions	hdl_matmul_hdl_conformance_report.html	/^            function getSuggestions() {$/;"	f
+getSuggestions	resource_report.html	/^            function getSuggestions() {$/;"	f
+hdlTableShrink	hdl_matmul_hdl_conformance_report.html	/^function hdlTableShrink(o,tagNameStr)$/;"	f
+hdl_matmul	hdl_matmul.vhd	/^ENTITY hdl_matmul IS$/;"	e
+hdl_matmul_pkg	hdl_matmul_pkg.vhd	/^PACKAGE hdl_matmul_pkg IS$/;"	P
+hdl_matmul_tb	hdl_matmul_tb.vhd	/^ENTITY hdl_matmul_tb IS$/;"	e
+hdl_matmul_tb_data	hdl_matmul_tb.vhd	/^PACKAGE BODY hdl_matmul_tb_data IS$/;"	P
+hdl_matmul_tb_data	hdl_matmul_tb.vhd	/^PACKAGE hdl_matmul_tb_data IS$/;"	P
+hdl_matmul_tb_pkg	hdl_matmul_tb.vhd	/^PACKAGE BODY hdl_matmul_tb_pkg IS$/;"	P
+hdl_matmul_tb_pkg	hdl_matmul_tb.vhd	/^PACKAGE hdl_matmul_tb_pkg IS$/;"	P
+hdlcoder_to_signed	hdl_matmul.vhd	/^  FUNCTION hdlcoder_to_signed(arg: real; width: integer) RETURN signed IS$/;"	f
+state_store_procedure	hdl_matmul_tb.vhd	/^  PROCEDURE state_store_procedure $/;"	p
+to_integer	hdl_matmul_tb.vhd	/^  FUNCTION to_integer( x : IN std_logic) RETURN integer IS$/;"	f
+vector_of_real	hdl_matmul_pkg.vhd	/^  TYPE vector_of_real IS ARRAY (NATURAL RANGE <>) OF real;$/;"	t
+vector_of_signed64	hdl_matmul_pkg.vhd	/^  TYPE vector_of_signed64 IS ARRAY (NATURAL RANGE <>) OF signed(63 DOWNTO 0);$/;"	t

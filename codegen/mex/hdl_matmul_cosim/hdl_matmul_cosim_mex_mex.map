@@ -1,0 +1,11 @@
+MEX {
+	global:
+		mexFunction;
+		emlrtMexFcnProperties;
+		hdl_matmul_cosim;
+		hdl_matmul_cosim_initialize;
+		hdl_matmul_cosim_terminate;
+		hdl_matmul_cosim_atexit;
+	local:
+		*;
+};

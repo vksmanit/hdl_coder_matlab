@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="hdl_matmul_fil">
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdl_matmul_fil|FILCore:u_FILCore|FILCommLayer:u_FILCommLayer|MWAJTAG:u_MWAJTAG|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_6ek1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdl_matmul_fil|FILCore:u_FILCore|FILCommLayer:u_FILCommLayer|MWAJTAG:u_MWAJTAG|dcfifo:u_rxfifo" CBX_FILE_NAME="dcfifo_ubj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdl_matmul_fil|MWClkMgr:u_ClockManager|altpll:u_dcm" CBX_FILE_NAME="clockmodule_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

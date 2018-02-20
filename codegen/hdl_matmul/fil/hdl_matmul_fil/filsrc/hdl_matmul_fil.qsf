@@ -1,0 +1,10 @@
+## CLOCK ##
+set_location_assignment PIN_R8 -to sysclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sysclk
+
+## IO PIN MAP##
+set_location_assignment PIN_J15 -to sysrst
+## IO STANDARD ##
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sysrst
+## IO CURRENT STRENGTH ##
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to sysrst

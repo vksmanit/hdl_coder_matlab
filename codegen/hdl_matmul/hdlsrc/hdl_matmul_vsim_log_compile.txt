@@ -1,0 +1,49 @@
+Reading pref.tcl
+
+# 10.3c
+
+# do hdl_matmul_tb_vsim_tb_compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 09:41:01 on Feb 08,2018
+# vcom hdl_matmul_pkg.vhd 
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package hdl_matmul_pkg
+# End time: 09:41:02 on Feb 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Start time: 09:41:02 on Feb 08,2018
+# vcom hdl_matmul.vhd 
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package hdl_matmul_pkg
+# -- Compiling entity hdl_matmul
+# -- Compiling architecture rtl of hdl_matmul
+# End time: 09:41:02 on Feb 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 09:41:02 on Feb 08,2018
+# vcom hdl_matmul_tb.vhd 
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package hdl_matmul_pkg
+# -- Compiling package hdl_matmul_tb_pkg
+# -- Compiling package body hdl_matmul_tb_pkg
+# -- Loading package hdl_matmul_tb_pkg
+# -- Loading package hdl_matmul_tb_pkg
+# -- Compiling package hdl_matmul_tb_data
+# -- Compiling package body hdl_matmul_tb_data
+# -- Loading package hdl_matmul_tb_data
+# -- Loading package hdl_matmul_tb_data
+# -- Compiling entity hdl_matmul_tb
+# -- Compiling architecture rtl of hdl_matmul_tb
+# -- Loading entity hdl_matmul
+# End time: 09:41:02 on Feb 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
